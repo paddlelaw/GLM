@@ -70,7 +70,7 @@ We prepare two docker images based on CUDA 10.2 and CUDA 11.2. You can pull the 
   ```shell
   docker run --gpus all --rm -it --ipc=host zxdu20/glm-cuda102
   ```
-  or replace `glm-cuda102` with `glm-cuda112`.
+  or replace `glm-cuda102` with `glm-cuda112` or 'glm-cuda115'.
 
   You can also modify the image according to your requirements in [docker/cuda102.dockerfile](docker/cuda102.dockerfile) and build the image yourself
   ```shell
